@@ -1,6 +1,6 @@
-title = "My Blog Site with Hugo"
 baseURL = "https://bidhya.github.io/"
 languageCode = "en-us"
+title = "Bidhya N Yadav"
 theme = "ananke"
 # themesDir = "../.."
 
