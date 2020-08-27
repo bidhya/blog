@@ -34,4 +34,24 @@ Change1
         Create a new github project, say blog, for example
         git remote add origin https://github.com/<USERNAME>/blog.com.git
 
-        <!-- git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public. -->
+6. Add github.io page  
+    First create bidhya.github.io page on remote  
+    On local machine:  
+        git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public .  
+        Make sure base url on config points to this site  
+
+7. Generate webpages with HUGO
+            hugo  
+            cd public  
+            git add --all  
+            git commit -m "generating web pages"  
+            git push origin master  
+
+8. Add pages and update as follows
+    hugo
+    cd public
+    git push
+
+Note:
+    Add .gitignore inside the blog repo and add `public/`  
+    That way public pages are not hosted on blog repo
