@@ -1,6 +1,8 @@
 ---
 title: "Github user page using Hugo on Windows"
 date: 2020-08-27T14:10:52-04:00
+tags: ["tag1"]
+categories: ["cat2"]
 ---
 Since most of the online instruction for Hugo was related to Mac/Linux, I decided to write post for my own sanity!  
 
@@ -55,3 +57,9 @@ Change1
 Note:
     Add .gitignore inside the blog repo and add `public/`  
     That way public pages are not hosted on blog repo
+
+Notes Specific to Hugo
+archetypes: to define frontmatter templates
+shortcodes: predefined html that can be inserted into md file
+taxonomies: tags inside the fornt matter or categories
+
