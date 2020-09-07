@@ -4,7 +4,7 @@ date: 2020-09-06
 draft: false
 ---
 
-# Installation of GPU to work with Tensorflow for Deep Learning for Windows 10  
+# GPU installation on Windows 10 for Tensorflow    
 Even though installation of Tensorflow is more streamlined (even on Windows), there are still few nuances on uisng GPU. Here are the steps to using GPU with tensorflow.  
 Refere to this [page](https://www.tensorflow.org/install/gpu) for specific GPU version of sofware/driver  
 **Important** : Make sure to download the exact version specified on google site. Since, there is rapid updates to both tensorflow and nvidia
