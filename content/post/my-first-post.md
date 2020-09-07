@@ -49,17 +49,18 @@ Change1
             git commit -m "generating web pages"  
             git push origin master  
 
-8. Add pages and update as follows
-    hugo
-    cd public
-    git push
+8. Add pages and update as follows  
+    hugo  
+    cd public  
+    git push  
 
 Note:
     Add .gitignore inside the blog repo and add `public/`  
     That way public pages are not hosted on blog repo
 
 Notes Specific to Hugo
-archetypes: to define frontmatter templates
-shortcodes: predefined html that can be inserted into md file
-taxonomies: tags inside the fornt matter or categories
+archetypes: to define frontmatter templates  
+shortcodes: predefined html that can be inserted into md file  
+taxonomies: tags inside the fornt matter or categories  
+
 
